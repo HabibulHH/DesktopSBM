@@ -80,6 +80,7 @@
     <Compile Include="MODELS\person.cs" />
     <Compile Include="MODELS\Product.cs" />
     <Compile Include="MODELS\VM\DailySells.cs" />
+    <Compile Include="MODELS\VM\ProductWiseSells.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UI\AddProduct.cs">

@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.productNameTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -39,12 +39,12 @@
             this.productSavebutton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // productNameTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(140, 49);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(180, 22);
-            this.textBox1.TabIndex = 3;
+            this.productNameTextBox.Location = new System.Drawing.Point(140, 49);
+            this.productNameTextBox.Name = "productNameTextBox";
+            this.productNameTextBox.Size = new System.Drawing.Size(180, 22);
+            this.productNameTextBox.TabIndex = 3;
             // 
             // label1
             // 
@@ -121,6 +121,7 @@
             this.productSavebutton.TabIndex = 12;
             this.productSavebutton.Text = "SAVE";
             this.productSavebutton.UseVisualStyleBackColor = true;
+            this.productSavebutton.Click += new System.EventHandler(this.productSavebutton_Click);
             // 
             // ProductNameEntryUI
             // 
@@ -134,7 +135,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.productNameTextBox);
             this.Controls.Add(this.label1);
             this.Name = "ProductNameEntryUI";
             this.Text = "ProductNameEntryUI";
@@ -145,7 +146,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox productNameTextBox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;

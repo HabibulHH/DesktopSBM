@@ -122,7 +122,7 @@
             this.addProductButton.TabIndex = 5;
             this.addProductButton.Text = "SAVE";
             this.addProductButton.UseSelectable = true;
-            //this.addProductButton.Click += new System.EventHandler(this.addProductButton_Click);
+            this.addProductButton.Click += new System.EventHandler(this.addProductButton_Click);
             // 
             // AddProduct
             // 

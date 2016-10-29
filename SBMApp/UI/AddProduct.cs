@@ -16,5 +16,10 @@ namespace SBMApp.UI
         {
             InitializeComponent();
         }
+
+        private void addProductButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
