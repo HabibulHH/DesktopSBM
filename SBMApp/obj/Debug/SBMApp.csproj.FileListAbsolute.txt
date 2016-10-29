@@ -1,0 +1,35 @@
+C:\Users\hhasan\documents\visual studio 2012\Projects\SBMApp\SBMApp\bin\Debug\SBMApp.exe.config
+C:\Users\hhasan\documents\visual studio 2012\Projects\SBMApp\SBMApp\bin\Debug\SBMApp.exe
+C:\Users\hhasan\documents\visual studio 2012\Projects\SBMApp\SBMApp\bin\Debug\SBMApp.pdb
+C:\Users\hhasan\documents\visual studio 2012\Projects\SBMApp\SBMApp\bin\Debug\MahApps.Metro.dll
+C:\Users\hhasan\documents\visual studio 2012\Projects\SBMApp\SBMApp\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\hhasan\documents\visual studio 2012\Projects\SBMApp\SBMApp\bin\Debug\MahApps.Metro.pdb
+C:\Users\hhasan\documents\visual studio 2012\Projects\SBMApp\SBMApp\bin\Debug\MahApps.Metro.xml
+C:\Users\hhasan\documents\visual studio 2012\Projects\SBMApp\SBMApp\obj\Debug\SBMApp.csprojResolveAssemblyReference.cache
+C:\Users\hhasan\documents\visual studio 2012\Projects\SBMApp\SBMApp\obj\Debug\SBMApp.Form1.resources
+C:\Users\hhasan\documents\visual studio 2012\Projects\SBMApp\SBMApp\obj\Debug\SBMApp.Properties.Resources.resources
+C:\Users\hhasan\documents\visual studio 2012\Projects\SBMApp\SBMApp\obj\Debug\SBMApp.UI.billUI.resources
+C:\Users\hhasan\documents\visual studio 2012\Projects\SBMApp\SBMApp\obj\Debug\SBMApp.UI.CustomerRegistrationUI.resources
+C:\Users\hhasan\documents\visual studio 2012\Projects\SBMApp\SBMApp\obj\Debug\SBMApp.csproj.GenerateResource.Cache
+C:\Users\hhasan\documents\visual studio 2012\Projects\SBMApp\SBMApp\obj\Debug\SBMApp.exe
+C:\Users\hhasan\documents\visual studio 2012\Projects\SBMApp\SBMApp\obj\Debug\SBMApp.pdb
+C:\Users\User\Desktop\SBMApp\SBMApp\bin\Debug\SBMApp.exe.config
+C:\Users\User\Desktop\SBMApp\SBMApp\obj\Debug\SBMApp.exe
+C:\Users\User\Desktop\SBMApp\SBMApp\obj\Debug\SBMApp.pdb
+C:\Users\User\Desktop\SBMApp\SBMApp\bin\Debug\SBMApp.exe
+C:\Users\User\Desktop\SBMApp\SBMApp\bin\Debug\SBMApp.pdb
+C:\Users\User\Desktop\SBMApp\SBMApp\bin\Debug\MahApps.Metro.dll
+C:\Users\User\Desktop\SBMApp\SBMApp\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\User\Desktop\SBMApp\SBMApp\bin\Debug\MahApps.Metro.pdb
+C:\Users\User\Desktop\SBMApp\SBMApp\bin\Debug\MahApps.Metro.xml
+C:\Users\User\Desktop\SBMApp\SBMApp\obj\Debug\SBMApp.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\SBMApp\SBMApp\obj\Debug\SBMApp.Form1.resources
+C:\Users\User\Desktop\SBMApp\SBMApp\obj\Debug\SBMApp.Properties.Resources.resources
+C:\Users\User\Desktop\SBMApp\SBMApp\obj\Debug\SBMApp.UI.billUI.resources
+C:\Users\User\Desktop\SBMApp\SBMApp\obj\Debug\SBMApp.UI.CustomerRegistrationUI.resources
+C:\Users\User\Desktop\SBMApp\SBMApp\obj\Debug\SBMApp.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\SBMApp\SBMApp\bin\Debug\MetroFramework.Design.dll
+C:\Users\User\Desktop\SBMApp\SBMApp\bin\Debug\MetroFramework.dll
+C:\Users\User\Desktop\SBMApp\SBMApp\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\User\Desktop\SBMApp\SBMApp\obj\Debug\SBMApp.UI.AddProduct.resources
+C:\Users\User\Desktop\SBMApp\SBMApp\obj\Debug\SBMApp.UI.ProductNameEntryUI.resources
