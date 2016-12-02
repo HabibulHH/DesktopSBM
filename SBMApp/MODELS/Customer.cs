@@ -17,6 +17,7 @@ namespace SBMApp.MODELS
         public double CurrentMonthBuyingAmount { set; get; }
         public double TotalBuyingAmount { set; get; }
         public double AccountReceivable { get; set; }
+        public string SL { get; set; }
 
     }
 }

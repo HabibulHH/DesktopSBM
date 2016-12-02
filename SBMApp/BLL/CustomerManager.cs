@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SBMApp.DAL;
 using SBMApp.MODELS;
 
 namespace SBMApp.BLL
 {
     public class CustomerManager
     {
+        private  CustomerGateWay aCustomerGateWay= new CustomerGateWay();
 
         public bool IsCutomerExists(string id)
         {
@@ -24,6 +26,15 @@ namespace SBMApp.BLL
                 AccountReceivable = 5466.00,
             };
             return aCustomer;
+        }
+
+
+        public bool AddCustomer(Customer aCustomer)
+        {
+            bool IsAdded = aCustomerGateWay.AddCustomer(aCustomer);
+            return IsAdded;
+
+
         }
     }
 }

@@ -9,7 +9,7 @@ namespace SBMApp.MODELS
 {
     public class GateWay
     {
-        private string connectionString ="";
+        private string connectionString = @"Server=(local);Database=SBMDB;Integrated Security=true;";
 
         public SqlConnection Connection { get; set; }
         public SqlCommand Command { get; set; }

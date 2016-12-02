@@ -17,7 +17,7 @@ namespace SBMApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ProductNameEntryUI());
+            Application.Run(new CustomerRegistrationUI());
         }
     }
 }
