@@ -35,8 +35,6 @@
             this.CustomerNameTextBox = new System.Windows.Forms.TextBox();
             this.CustomerTextBox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.OpeningDateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.CustomerCreateButton = new System.Windows.Forms.Button();
             this.CustomerResetButton = new System.Windows.Forms.Button();
             this.CustomerRegionComboBox = new System.Windows.Forms.ComboBox();
@@ -54,14 +52,10 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.MobileNumberTextBox = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.CustoerBalanceTextBox = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
             this.arTextBox = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.customerSlText = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -109,7 +103,7 @@
             // CustomerNameTextBox
             // 
             this.CustomerNameTextBox.Location = new System.Drawing.Point(173, 92);
-            this.CustomerNameTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CustomerNameTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.CustomerNameTextBox.Name = "CustomerNameTextBox";
             this.CustomerNameTextBox.Size = new System.Drawing.Size(217, 22);
             this.CustomerNameTextBox.TabIndex = 4;
@@ -117,7 +111,7 @@
             // CustomerTextBox
             // 
             this.CustomerTextBox.Location = new System.Drawing.Point(173, 132);
-            this.CustomerTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CustomerTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.CustomerTextBox.Name = "CustomerTextBox";
             this.CustomerTextBox.Size = new System.Drawing.Size(217, 22);
             this.CustomerTextBox.TabIndex = 5;
@@ -132,28 +126,10 @@
             this.label5.TabIndex = 8;
             this.label5.Text = "MOBILE NUMBER";
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(469, 201);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(112, 17);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "OPENING DATE";
-            // 
-            // OpeningDateTimePicker
-            // 
-            this.OpeningDateTimePicker.Location = new System.Drawing.Point(607, 192);
-            this.OpeningDateTimePicker.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.OpeningDateTimePicker.Name = "OpeningDateTimePicker";
-            this.OpeningDateTimePicker.Size = new System.Drawing.Size(179, 22);
-            this.OpeningDateTimePicker.TabIndex = 11;
-            // 
             // CustomerCreateButton
             // 
-            this.CustomerCreateButton.Location = new System.Drawing.Point(623, 279);
-            this.CustomerCreateButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CustomerCreateButton.Location = new System.Drawing.Point(226, 250);
+            this.CustomerCreateButton.Margin = new System.Windows.Forms.Padding(4);
             this.CustomerCreateButton.Name = "CustomerCreateButton";
             this.CustomerCreateButton.Size = new System.Drawing.Size(164, 55);
             this.CustomerCreateButton.TabIndex = 12;
@@ -163,8 +139,8 @@
             // 
             // CustomerResetButton
             // 
-            this.CustomerResetButton.Location = new System.Drawing.Point(486, 279);
-            this.CustomerResetButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CustomerResetButton.Location = new System.Drawing.Point(100, 250);
+            this.CustomerResetButton.Margin = new System.Windows.Forms.Padding(4);
             this.CustomerResetButton.Name = "CustomerResetButton";
             this.CustomerResetButton.Size = new System.Drawing.Size(101, 54);
             this.CustomerResetButton.TabIndex = 13;
@@ -180,10 +156,10 @@
             "Dantvanga",
             "Rajibpur",
             "Kortimari"});
-            this.CustomerRegionComboBox.Location = new System.Drawing.Point(605, 92);
-            this.CustomerRegionComboBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CustomerRegionComboBox.Location = new System.Drawing.Point(173, 60);
+            this.CustomerRegionComboBox.Margin = new System.Windows.Forms.Padding(4);
             this.CustomerRegionComboBox.Name = "CustomerRegionComboBox";
-            this.CustomerRegionComboBox.Size = new System.Drawing.Size(180, 24);
+            this.CustomerRegionComboBox.Size = new System.Drawing.Size(217, 24);
             this.CustomerRegionComboBox.TabIndex = 14;
             // 
             // groupBox1
@@ -203,9 +179,9 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Location = new System.Drawing.Point(927, 43);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(453, 645);
             this.groupBox1.TabIndex = 15;
             this.groupBox1.TabStop = false;
@@ -214,7 +190,7 @@
             // ShowBuyingOfThisMonth
             // 
             this.ShowBuyingOfThisMonth.Location = new System.Drawing.Point(200, 427);
-            this.ShowBuyingOfThisMonth.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ShowBuyingOfThisMonth.Margin = new System.Windows.Forms.Padding(4);
             this.ShowBuyingOfThisMonth.Multiline = true;
             this.ShowBuyingOfThisMonth.Name = "ShowBuyingOfThisMonth";
             this.ShowBuyingOfThisMonth.ReadOnly = true;
@@ -224,7 +200,7 @@
             // ShowTotalAccountRecivableTextBox
             // 
             this.ShowTotalAccountRecivableTextBox.Location = new System.Drawing.Point(200, 362);
-            this.ShowTotalAccountRecivableTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ShowTotalAccountRecivableTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.ShowTotalAccountRecivableTextBox.Multiline = true;
             this.ShowTotalAccountRecivableTextBox.Name = "ShowTotalAccountRecivableTextBox";
             this.ShowTotalAccountRecivableTextBox.ReadOnly = true;
@@ -234,7 +210,7 @@
             // ShowMobileTextBox
             // 
             this.ShowMobileTextBox.Location = new System.Drawing.Point(200, 290);
-            this.ShowMobileTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ShowMobileTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.ShowMobileTextBox.Multiline = true;
             this.ShowMobileTextBox.Name = "ShowMobileTextBox";
             this.ShowMobileTextBox.ReadOnly = true;
@@ -244,7 +220,7 @@
             // ShowBalanceTextBox
             // 
             this.ShowBalanceTextBox.Location = new System.Drawing.Point(200, 225);
-            this.ShowBalanceTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ShowBalanceTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.ShowBalanceTextBox.Multiline = true;
             this.ShowBalanceTextBox.Name = "ShowBalanceTextBox";
             this.ShowBalanceTextBox.ReadOnly = true;
@@ -264,7 +240,7 @@
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(292, 80);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(123, 33);
             this.button3.TabIndex = 26;
@@ -274,7 +250,7 @@
             // SearchByCustomerNametextBox
             // 
             this.SearchByCustomerNametextBox.Location = new System.Drawing.Point(65, 80);
-            this.SearchByCustomerNametextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.SearchByCustomerNametextBox.Margin = new System.Windows.Forms.Padding(4);
             this.SearchByCustomerNametextBox.Multiline = true;
             this.SearchByCustomerNametextBox.Name = "SearchByCustomerNametextBox";
             this.SearchByCustomerNametextBox.Size = new System.Drawing.Size(217, 32);
@@ -303,7 +279,7 @@
             // ShowNameTextBox
             // 
             this.ShowNameTextBox.Location = new System.Drawing.Point(200, 160);
-            this.ShowNameTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ShowNameTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.ShowNameTextBox.Multiline = true;
             this.ShowNameTextBox.Name = "ShowNameTextBox";
             this.ShowNameTextBox.ReadOnly = true;
@@ -333,69 +309,41 @@
             // MobileNumberTextBox
             // 
             this.MobileNumberTextBox.Location = new System.Drawing.Point(173, 173);
-            this.MobileNumberTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MobileNumberTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.MobileNumberTextBox.Name = "MobileNumberTextBox";
             this.MobileNumberTextBox.Size = new System.Drawing.Size(217, 22);
             this.MobileNumberTextBox.TabIndex = 26;
             // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(512, 151);
-            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(71, 17);
-            this.label13.TabIndex = 25;
-            this.label13.Text = "BALANCE";
-            // 
-            // CustoerBalanceTextBox
-            // 
-            this.CustoerBalanceTextBox.Location = new System.Drawing.Point(607, 144);
-            this.CustoerBalanceTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.CustoerBalanceTextBox.Multiline = true;
-            this.CustoerBalanceTextBox.Name = "CustoerBalanceTextBox";
-            this.CustoerBalanceTextBox.Size = new System.Drawing.Size(179, 24);
-            this.CustoerBalanceTextBox.TabIndex = 26;
-            // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.customerSlText);
-            this.groupBox2.Controls.Add(this.label15);
             this.groupBox2.Controls.Add(this.arTextBox);
             this.groupBox2.Controls.Add(this.label14);
             this.groupBox2.Controls.Add(this.label12);
             this.groupBox2.Controls.Add(this.CustomerNameTextBox);
-            this.groupBox2.Controls.Add(this.CustoerBalanceTextBox);
             this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Controls.Add(this.label13);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.label11);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.CustomerTextBox);
             this.groupBox2.Controls.Add(this.MobileNumberTextBox);
-            this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Controls.Add(this.OpeningDateTimePicker);
             this.groupBox2.Controls.Add(this.CustomerCreateButton);
             this.groupBox2.Controls.Add(this.CustomerResetButton);
             this.groupBox2.Controls.Add(this.CustomerRegionComboBox);
             this.groupBox2.Location = new System.Drawing.Point(16, 38);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox2.Size = new System.Drawing.Size(857, 389);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox2.Size = new System.Drawing.Size(571, 389);
             this.groupBox2.TabIndex = 27;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "CREATE CUSTOMER";
             // 
-            // label12
+            // arTextBox
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(521, 99);
-            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(62, 17);
-            this.label12.TabIndex = 27;
-            this.label12.Text = "REGION";
+            this.arTextBox.Location = new System.Drawing.Point(173, 208);
+            this.arTextBox.Name = "arTextBox";
+            this.arTextBox.Size = new System.Drawing.Size(217, 22);
+            this.arTextBox.TabIndex = 29;
             // 
             // label14
             // 
@@ -406,28 +354,15 @@
             this.label14.TabIndex = 28;
             this.label14.Text = "Account Recivable";
             // 
-            // arTextBox
+            // label12
             // 
-            this.arTextBox.Location = new System.Drawing.Point(173, 208);
-            this.arTextBox.Name = "arTextBox";
-            this.arTextBox.Size = new System.Drawing.Size(217, 22);
-            this.arTextBox.TabIndex = 29;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(483, 230);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(89, 17);
-            this.label15.TabIndex = 30;
-            this.label15.Text = "Customer SL";
-            // 
-            // customerSlText
-            // 
-            this.customerSlText.Location = new System.Drawing.Point(607, 230);
-            this.customerSlText.Name = "customerSlText";
-            this.customerSlText.Size = new System.Drawing.Size(177, 22);
-            this.customerSlText.TabIndex = 31;
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(100, 60);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(62, 17);
+            this.label12.TabIndex = 27;
+            this.label12.Text = "REGION";
             // 
             // CustomerRegistrationUI
             // 
@@ -437,7 +372,7 @@
             this.ClientSize = new System.Drawing.Size(1370, 686);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "CustomerRegistrationUI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CustomerRegistrationUI";
@@ -458,8 +393,6 @@
         private System.Windows.Forms.TextBox CustomerNameTextBox;
         private System.Windows.Forms.TextBox CustomerTextBox;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.DateTimePicker OpeningDateTimePicker;
         private System.Windows.Forms.Button CustomerCreateButton;
         private System.Windows.Forms.Button CustomerResetButton;
         private System.Windows.Forms.ComboBox CustomerRegionComboBox;
@@ -470,8 +403,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox MobileNumberTextBox;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox CustoerBalanceTextBox;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.TextBox SearchByCustomerNametextBox;
@@ -483,7 +414,5 @@
         private System.Windows.Forms.TextBox ShowBalanceTextBox;
         private System.Windows.Forms.TextBox arTextBox;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox customerSlText;
-        private System.Windows.Forms.Label label15;
     }
 }

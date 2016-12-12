@@ -68,7 +68,9 @@
     <Compile Include="BLL\CashMemoManager.cs" />
     <Compile Include="BLL\CustomerManager.cs" />
     <Compile Include="BLL\ProductEntryManager.cs" />
+    <Compile Include="BLL\ProductManager.cs" />
     <Compile Include="DAL\CustomerGateWay.cs" />
+    <Compile Include="DAL\ProductGateway.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
