@@ -32,6 +32,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="MahApps.Metro, Version=1.3.0.0, Culture=neutral, PublicKeyToken=f4fb5a3c4d1e5b4f, processorArchitecture=MSIL">
       <HintPath>..\packages\MahApps.Metro.1.3.0\lib\net45\MahApps.Metro.dll</HintPath>
       <Private>True</Private>
@@ -49,6 +55,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Web" />
     <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -65,53 +72,99 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BLL\CashMemoManager.cs" />
-    <Compile Include="BLL\CustomerManager.cs" />
-    <Compile Include="BLL\ProductEntryManager.cs" />
-    <Compile Include="BLL\ProductManager.cs" />
-    <Compile Include="DAL\CustomerGateWay.cs" />
-    <Compile Include="DAL\ProductGateway.cs" />
+    <Compile Include="Context\CustomerContext.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="MODELS\CashMemo.cs" />
+    <Compile Include="Migrations\201701311504264_InitialCreate.cs" />
+    <Compile Include="Migrations\201701311504264_InitialCreate.Designer.cs">
+      <DependentUpon>201701311504264_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702040714093_versionOne.cs" />
+    <Compile Include="Migrations\201702040714093_versionOne.Designer.cs">
+      <DependentUpon>201702040714093_versionOne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702040731029_versionTwo.cs" />
+    <Compile Include="Migrations\201702040731029_versionTwo.Designer.cs">
+      <DependentUpon>201702040731029_versionTwo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702041322110_versionThree.cs" />
+    <Compile Include="Migrations\201702041322110_versionThree.Designer.cs">
+      <DependentUpon>201702041322110_versionThree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702041335223_versionf.cs" />
+    <Compile Include="Migrations\201702041335223_versionf.Designer.cs">
+      <DependentUpon>201702041335223_versionf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MODELS\Customer.cs" />
-    <Compile Include="MODELS\GateWay.cs" />
-    <Compile Include="MODELS\person.cs" />
-    <Compile Include="MODELS\Product.cs" />
-    <Compile Include="MODELS\VM\DailySells.cs" />
-    <Compile Include="MODELS\VM\ProductWiseSells.cs" />
+    <Compile Include="MODELS\CustomerBuyingRec.cs" />
+    <Compile Include="MODELS\CustomerPaymentModel.cs" />
+    <Compile Include="MODELS\SellsRecord.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UI\AddProduct.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UI\AddProduct.Designer.cs">
-      <DependentUpon>AddProduct.cs</DependentUpon>
-    </Compile>
     <Compile Include="UI\billUI.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UI\billUI.Designer.cs">
       <DependentUpon>billUI.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\CustomerRegistrationUI.cs">
+    <Compile Include="UI\Customer\BuyingEntry.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\CustomerRegistrationUI.Designer.cs">
-      <DependentUpon>CustomerRegistrationUI.cs</DependentUpon>
+    <Compile Include="UI\Customer\BuyingEntry.Designer.cs">
+      <DependentUpon>BuyingEntry.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\ProductNameEntryUI.cs">
+    <Compile Include="UI\Customer\BuyingHistory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\ProductNameEntryUI.Designer.cs">
-      <DependentUpon>ProductNameEntryUI.cs</DependentUpon>
+    <Compile Include="UI\Customer\BuyingHistory.Designer.cs">
+      <DependentUpon>BuyingHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Customer\CustomerEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Customer\CustomerEntry.Designer.cs">
+      <DependentUpon>CustomerEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Customer\CustomerList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Customer\CustomerList.Designer.cs">
+      <DependentUpon>CustomerList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Customer\CustomersPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Customer\CustomersPayment.Designer.cs">
+      <DependentUpon>CustomersPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Customer\PaymentHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Customer\PaymentHistory.Designer.cs">
+      <DependentUpon>PaymentHistory.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701311504264_InitialCreate.resx">
+      <DependentUpon>201701311504264_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702040714093_versionOne.resx">
+      <DependentUpon>201702040714093_versionOne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702040731029_versionTwo.resx">
+      <DependentUpon>201702040731029_versionTwo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702041322110_versionThree.resx">
+      <DependentUpon>201702041322110_versionThree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702041335223_versionf.resx">
+      <DependentUpon>201702041335223_versionf.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -122,17 +175,26 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="UI\AddProduct.resx">
-      <DependentUpon>AddProduct.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="UI\billUI.resx">
       <DependentUpon>billUI.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\CustomerRegistrationUI.resx">
-      <DependentUpon>CustomerRegistrationUI.cs</DependentUpon>
+    <EmbeddedResource Include="UI\Customer\BuyingEntry.resx">
+      <DependentUpon>BuyingEntry.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\ProductNameEntryUI.resx">
-      <DependentUpon>ProductNameEntryUI.cs</DependentUpon>
+    <EmbeddedResource Include="UI\Customer\BuyingHistory.resx">
+      <DependentUpon>BuyingHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Customer\CustomerEntry.resx">
+      <DependentUpon>CustomerEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Customer\CustomerList.resx">
+      <DependentUpon>CustomerList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Customer\CustomersPayment.resx">
+      <DependentUpon>CustomersPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Customer\PaymentHistory.resx">
+      <DependentUpon>PaymentHistory.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -148,7 +210,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="BLL\" />
+    <Folder Include="DAL\" />
+    <Folder Include="MODELS\VM\" />
+    <Folder Include="UI\SellRecords\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

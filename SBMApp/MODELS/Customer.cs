@@ -8,16 +8,15 @@ namespace SBMApp.MODELS
 {
     public class Customer
     {
-        public double Id { set; get; }
-        public double Balance { set; get; }
-        public string Name { set; get; }
-        public string MobileNumber { set; get; }
-        public string Region { set; get; }
-        public DateTime OpeningDate { set; get; }
-        public double CurrentMonthBuyingAmount { set; get; }
-        public double TotalBuyingAmount { set; get; }
-        public double AccountReceivable { get; set; }
-        public string SL { get; set; }
+       
+        public int Id { get; set; }
+        public string CustomernName { get; set; }
 
+        public string CustomerId { get; set; }
+        public float AccountRecivable { get; set; }
+       
+        public string MobileNumber { get; set; }
+
+        public string Region { get; set; }
     }
 }

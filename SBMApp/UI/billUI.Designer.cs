@@ -358,7 +358,7 @@
             this.saveCashMemoData.TabIndex = 28;
             this.saveCashMemoData.Text = "SAVE ";
             this.saveCashMemoData.UseVisualStyleBackColor = false;
-            this.saveCashMemoData.Click += new System.EventHandler(this.saveCashMemoData_Click);
+            //this.saveCashMemoData.Click += new System.EventHandler(this.saveCashMemoData_Click);
             // 
             // SL
             // 
