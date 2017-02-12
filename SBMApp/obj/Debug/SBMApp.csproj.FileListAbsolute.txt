@@ -45,3 +45,6 @@ C:\Users\User\Desktop\SBMApp\SBMApp\obj\Debug\SBMApp.Migrations.versionThree.res
 C:\Users\User\Desktop\SBMApp\SBMApp\obj\Debug\SBMApp.UI.Customer.BuyingEntry.resources
 C:\Users\User\Desktop\SBMApp\SBMApp\obj\Debug\SBMApp.Migrations.versionf.resources
 C:\Users\User\Desktop\SBMApp\SBMApp\obj\Debug\SBMApp.UI.Customer.BuyingHistory.resources
+C:\Users\User\Desktop\SBMApp\SBMApp\obj\Debug\SBMApp.UI.HOME.resources
+C:\Users\User\Desktop\SBMApp\SBMApp\obj\Debug\SBMApp.UI.SellRecords.DailySalesRec.resources
+C:\Users\User\Desktop\SBMApp\SBMApp\obj\Debug\SBMApp.UI.SellRecords.SalesReport.resources

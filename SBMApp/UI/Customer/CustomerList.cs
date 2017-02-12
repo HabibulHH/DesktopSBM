@@ -87,5 +87,10 @@ namespace SBMApp.UI
             var history= new BuyingHistory();
             history.Show();
         }
+
+        private void CustomerList_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
