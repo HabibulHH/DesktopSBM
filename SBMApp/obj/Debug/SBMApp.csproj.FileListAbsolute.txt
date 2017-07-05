@@ -48,3 +48,4 @@ C:\Users\User\Desktop\SBMApp\SBMApp\obj\Debug\SBMApp.UI.Customer.BuyingHistory.r
 C:\Users\User\Desktop\SBMApp\SBMApp\obj\Debug\SBMApp.UI.HOME.resources
 C:\Users\User\Desktop\SBMApp\SBMApp\obj\Debug\SBMApp.UI.SellRecords.DailySalesRec.resources
 C:\Users\User\Desktop\SBMApp\SBMApp\obj\Debug\SBMApp.UI.SellRecords.SalesReport.resources
+C:\Users\User\Desktop\SBMApp\SBMApp\obj\Debug\SBMApp.UI.Expense.Expense_Entry.resources

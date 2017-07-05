@@ -31,6 +31,7 @@
             this.CustomerControlButton = new MetroFramework.Controls.MetroButton();
             this.recordControlButton = new MetroFramework.Controls.MetroButton();
             this.salesReport = new MetroFramework.Controls.MetroButton();
+            this.ExpenseEntry = new MetroFramework.Controls.MetroButton();
             this.SuspendLayout();
             // 
             // CustomerControlButton
@@ -66,11 +67,22 @@
             this.salesReport.UseSelectable = true;
             this.salesReport.Click += new System.EventHandler(this.salesReport_Click);
             // 
+            // ExpenseEntry
+            // 
+            this.ExpenseEntry.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.ExpenseEntry.Location = new System.Drawing.Point(101, 254);
+            this.ExpenseEntry.Name = "ExpenseEntry";
+            this.ExpenseEntry.Size = new System.Drawing.Size(155, 103);
+            this.ExpenseEntry.TabIndex = 3;
+            this.ExpenseEntry.Text = "Expense Entry";
+            this.ExpenseEntry.UseSelectable = true;
+            // 
             // HOME
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(768, 389);
+            this.Controls.Add(this.ExpenseEntry);
             this.Controls.Add(this.salesReport);
             this.Controls.Add(this.recordControlButton);
             this.Controls.Add(this.CustomerControlButton);
@@ -86,5 +98,6 @@
         private MetroFramework.Controls.MetroButton CustomerControlButton;
         private MetroFramework.Controls.MetroButton recordControlButton;
         private MetroFramework.Controls.MetroButton salesReport;
+        private MetroFramework.Controls.MetroButton ExpenseEntry;
     }
 }

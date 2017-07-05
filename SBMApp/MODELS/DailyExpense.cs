@@ -9,6 +9,6 @@ namespace SBMApp.MODELS
     public class DailyExpense
     {
         public  int Id { get; set; }
-        public decimal  { get; set; }
+        //public decimal   { get; set; }
     }
 }
